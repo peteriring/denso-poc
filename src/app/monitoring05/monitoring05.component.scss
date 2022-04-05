@@ -1,0 +1,34 @@
+
+.apexcharts-series[seriesName="5h"]path {
+  &:nth-child(5),
+  &:nth-child(6),
+  &:nth-child(2) {
+    fill: #dc0032 !important;
+  }
+}
+.apexcharts-series[seriesName="3h"]path {
+  &:nth-child(5),
+  &:nth-child(2),
+  &:nth-child(6) {
+    fill: #dc0032 !important;
+  }
+}
+.apexcharts-series[seriesName="7h"]path {
+  &:nth-child(6),
+  &:nth-child(5),
+  &:nth-child(2) {
+    fill: #dc0032 !important;
+  }
+}
+.apexcharts-series[seriesName="8h"]path {
+  &:nth-child(6),
+  &:nth-child(5),
+  &:nth-child(2) {
+    fill: #dc0032 !important;
+  }
+}
+.apexcharts-legend-series {
+  .apexcharts-legend-marker {
+    background: #000000 !important;
+  }
+}

@@ -1,0 +1,78 @@
+<mat-drawer-container class="example-container">
+  <mat-drawer mode="over" #sidenav>
+    <mat-action-list>
+      <button
+        mat-list-item
+        routerLink="/monitoring01"
+        routerLinkActive="active"
+      >
+        Monitoring01
+      </button>
+      <button
+        mat-list-item
+        routerLink="/monitoring02"
+        routerLinkActive="active"
+      >
+        Monitoring02
+      </button>
+      <button
+        mat-list-item
+        routerLink="/monitoring03"
+        routerLinkActive="active"
+      >
+        Monitoring03
+      </button>
+      <button
+        mat-list-item
+        routerLink="/monitoring04"
+        routerLinkActive="active"
+      >
+        Monitoring04
+      </button>
+      <button
+        mat-list-item
+        routerLink="/monitoring05"
+        routerLinkActive="active"
+      >
+        Monitoring05
+      </button>
+      <button mat-list-item routerLink="/reporting01" routerLinkActive="active">
+        Reporting01
+      </button>
+      <button mat-list-item routerLink="/reporting02" routerLinkActive="active">
+        Reporting02
+      </button>
+      <button mat-list-item routerLink="/reporting03" routerLinkActive="active">
+        Reporting03
+      </button>
+      <button mat-list-item routerLink="/reporting04" routerLinkActive="active">
+        Reporting04
+      </button>
+      <button mat-list-item routerLink="/reporting05" routerLinkActive="active">
+        Reporting05
+      </button>
+      <button mat-list-item routerLink="/reporting06" routerLinkActive="active">
+        Reporting06
+      </button>
+      <button mat-list-item routerLink="/reporting07" routerLinkActive="active">
+        Reporting07
+      </button>
+      <button mat-list-item routerLink="/reporting08" routerLinkActive="active">
+        Reporting08
+      </button>
+    </mat-action-list>
+  </mat-drawer>
+  <mat-drawer-content>
+    <mat-toolbar>
+      <button
+        mat-icon-button
+        aria-label="Menu"
+        (click)="sidenav.open()"
+        #hamburgerIcon
+      >
+        <mat-icon>menu</mat-icon>
+      </button>
+    </mat-toolbar>
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>

@@ -1,0 +1,103 @@
+<h3 style="margin-left: 1rem">
+  <strong>(POC)</strong> PE - EOL CT shift Query
+</h3>
+<div class="container">
+  <div class="sync-charts-container">
+    <div class="sync-charts" style="text-align: center">
+      <apx-chart
+        [grid]="chartOptions.grid"
+        [series]="chartOptions.series"
+        [chart]="chartOptions.chart"
+        [plotOptions]="chartOptions.plotOptions"
+        [annotations]="chartOptions.annotations"
+        [fill]="chartOptions.fill"
+        [dataLabels]="chartOptions.dataLabels"
+        [xaxis]="chartOptions.xaxis"
+        [yaxis]="chartOptions.yaxis"
+        [stroke]="chartOptions.stroke"
+        [legend]="chartOptions.legend"
+      ></apx-chart>
+      <apx-chart
+        class="second"
+        [series]="chart2options.series"
+        [chart]="chart2options.chart"
+        [annotations]="chart2options.annotations"
+        [colors]="chart2options.colors"
+        [plotOptions]="chart2options.plotOptions"
+        [yaxis]="chart2options.yaxis"
+        [dataLabels]="chart2options.dataLabels"
+        [markers]="chart2options.markers"
+        [stroke]="chart2options.stroke"
+        [grid]="chart2options.grid"
+        [xaxis]="chart2options.xaxis"
+        [fill]="chart2options.fill"
+      ></apx-chart>
+    </div>
+  </div>
+</div>
+<div class="charts-container">
+  <div class="first-row">
+    <div class="bar-one" style="text-align: center">
+      <apx-chart
+        class="second"
+        [series]="chart3Options.series"
+        [chart]="chart3Options.chart"
+        [annotations]="chart3Options.annotations"
+        [colors]="chart3Options.colors"
+        [plotOptions]="chart3Options.plotOptions"
+        [yaxis]="chart3Options.yaxis"
+        [dataLabels]="chart3Options.dataLabels"
+        [markers]="chart3Options.markers"
+        [stroke]="chart3Options.stroke"
+        [grid]="chart3Options.grid"
+        [xaxis]="chart3Options.xaxis"
+        [fill]="chart3Options.fill"
+      ></apx-chart>
+    </div>
+    <div class="pie-one" style="text-align: center">
+      <apx-chart
+        [series]="chart1OptionsPie.series"
+        [chart]="chart1OptionsPie.chart"
+        [labels]="chart1OptionsPie.labels"
+        [legend]="chart1OptionsPie.legend"
+        [responsive]="chart1OptionsPie.responsive"
+        [dataLabels]="chart1OptionsPie.dataLabels"
+        [annotations]="chart1OptionsPie.annotations"
+        [plotOptions]="chart1OptionsPie.plotOptions"
+        [stroke]="chart1OptionsPie.stroke"
+      ></apx-chart>
+    </div>
+  </div>
+  <div class="second-row">
+    <div class="bar-two" style="text-align: center">
+      <apx-chart
+        class="second"
+        [series]="chart4Options.series"
+        [chart]="chart4Options.chart"
+        [annotations]="chart4Options.annotations"
+        [colors]="chart4Options.colors"
+        [plotOptions]="chart4Options.plotOptions"
+        [yaxis]="chart4Options.yaxis"
+        [dataLabels]="chart4Options.dataLabels"
+        [markers]="chart4Options.markers"
+        [stroke]="chart4Options.stroke"
+        [grid]="chart4Options.grid"
+        [xaxis]="chart4Options.xaxis"
+        [fill]="chart4Options.fill"
+      ></apx-chart>
+    </div>
+    <div class="pie-two" style="text-align: center">
+      <apx-chart
+        [series]="chart2OptionsPie.series"
+        [chart]="chart2OptionsPie.chart"
+        [labels]="chart2OptionsPie.labels"
+        [legend]="chart2OptionsPie.legend"
+        [responsive]="chart2OptionsPie.responsive"
+        [dataLabels]="chart2OptionsPie.dataLabels"
+        [annotations]="chart2OptionsPie.annotations"
+        [plotOptions]="chart2OptionsPie.plotOptions"
+        [stroke]="chart2OptionsPie.stroke"
+      ></apx-chart>
+    </div>
+  </div>
+</div>

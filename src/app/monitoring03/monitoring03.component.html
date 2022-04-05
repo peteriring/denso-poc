@@ -1,0 +1,28 @@
+<h3 style="margin-left: 1rem"><strong>(POC)</strong> OR - QTY Screen</h3>
+<div style="text-align: center">
+  <apx-chart
+    [series]="chartOptions1.series"
+    [chart]="chartOptions1.chart"
+    [xaxis]="chartOptions1.xaxis"
+    [title]="chartOptions1.title"
+    [dataLabels]="chartOptions1.dataLabels"
+    [stroke]="chartOptions1.stroke"
+    [plotOptions]="chartOptions1.plotOptions"
+    [legend]="chartOptions1.legend"
+    [colors]="chartOptions1.colors"
+    [annotations]="chartOptions1.annotations"
+  ></apx-chart>
+  <apx-chart
+    [series]="chartOptions2.series"
+    [chart]="chartOptions2.chart"
+    [xaxis]="chartOptionsCommon.xaxis"
+    [title]="chartOptions2.title"
+    [dataLabels]="chartOptions2.dataLabels"
+    [stroke]="chartOptions2.stroke"
+    [colors]="chartOptions2.colors"
+    [plotOptions]="chartOptions2.plotOptions"
+    [annotations]="chartOptions2.annotations"
+    [yaxis]="chartOptions2.yaxis"
+    [tooltip]="chartOptions2.tooltip"
+  ></apx-chart>
+</div>

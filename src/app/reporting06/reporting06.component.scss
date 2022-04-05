@@ -1,0 +1,54 @@
+.apexcharts-toolbar {
+  display: none;
+}
+.apexcharts-title-text {
+  display: none;
+}
+.apx-legend-position-bottom {
+  display: none !important;
+}
+
+.apexcharts-theme-light {
+  margin-top: -20px !important;
+  margin-left: 10px;
+}
+.chart {
+  .apexcharts-inner,
+  .apexcharts-graphical {
+    margin-left: -10px !important;
+  }
+}
+.chart2,
+.chart3 {
+  .apexcharts-xaxis-texts-g {
+    display: none !important;
+  }
+}
+.apexcharts-series[seriesName="OEE"]path {
+  &:nth-child(15),
+  &:nth-child(23),
+  &:nth-child(25) {
+    fill: #2bc2e7 !important;
+  }
+}
+.apexcharts-series[seriesName="EOE"]path {
+  &:nth-child(17),
+  &:nth-child(23),
+  &:nth-child(25),
+  &:nth-child(26),
+  &:nth-child(24),
+  &:nth-child(22),
+  &:nth-child(18),
+  &:nth-child(19) {
+    fill: #2bc2e7 !important;
+  }
+}
+.apexcharts-series[seriesName="EEO"]path {
+  &:nth-child(23),
+  &:nth-child(25),
+  &:nth-child(26),
+  &:nth-child(24),
+  &:nth-child(22) {
+    fill: #2bc2e7 !important;
+  }
+}

@@ -1,0 +1,16 @@
+.apexcharts-toolbar {
+  display: none;
+}
+.apexcharts-title-text {
+  display: none;
+}
+.apx-legend-position-bottom {
+  display: none !important;
+}
+
+.chart2,
+.chart3 {
+  .apexcharts-xaxis-texts-g {
+    display: none !important;
+  }
+}

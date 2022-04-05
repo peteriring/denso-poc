@@ -1,0 +1,42 @@
+#chart {
+  max-width: 700;
+  margin: 35px auto;
+  display: flex;
+  border: black solid 2px;
+  apx-chart {
+    width: 50% !important;
+  }
+  .apexcharts-toolbar {
+    display: none;
+  }
+  .chart-one {
+    .apexcharts-series {
+      .apexcharts-bar-area:nth-child(3) {
+        fill: #ff7800 !important;
+      }
+    }
+  }
+  .chart-two {
+    border-right: black solid 1px;
+    .apexcharts-series {
+      .apexcharts-bar-area:nth-child(1) {
+        fill: #ff7800 !important;
+      }
+    }
+  }
+  .chart-three {
+    border-right: black solid 1px;
+    .apexcharts-series {
+      .apexcharts-bar-area:nth-child(1) {
+        fill: #ff7800 !important;
+      }
+    }
+  }
+  .chart-four {
+    .apexcharts-series {
+      .apexcharts-bar-area:nth-child(1) {
+        fill: #ff7800 !important;
+      }
+    }
+  }
+}

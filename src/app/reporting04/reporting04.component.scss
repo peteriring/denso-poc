@@ -1,0 +1,27 @@
+.apexcharts-toolbar {
+  display: none;
+}
+.pie-one {
+  width: 220px !important;
+  .apexcharts-legend {
+    visibility: hidden;
+  }
+}
+.pie-two {
+  width: 300px !important;
+  .apexcharts-legend {
+    right: 50px !important;
+  }
+}
+.first-row,
+.second-row,
+.third-row {
+  display: flex;
+  flex-direction: row;
+}
+.bar-one,
+.bar-two,
+.altbar-one,
+.altbar-two {
+  margin-right: 48px;
+}

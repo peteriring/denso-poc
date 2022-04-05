@@ -1,0 +1,26 @@
+#chart {
+  max-width: 700;
+  margin: 35px auto;
+  display: flex;
+  border: black solid 2px;
+  apx-chart {
+    width: 50% !important;
+  }
+  .apexcharts-toolbar {
+    display: none;
+  }
+  .chart-one {
+    .apexcharts-series {
+      .apexcharts-bar-area:nth-child(3) {
+        fill: #fecd1a !important;
+      }
+    }
+  }
+  .chart-two {
+    .apexcharts-series {
+      .apexcharts-bar-area:nth-child(1) {
+        fill: #fecd1a !important;
+      }
+    }
+  }
+}

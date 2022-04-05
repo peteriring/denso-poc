@@ -1,0 +1,27 @@
+<h3 style="margin-left: 1rem">
+  <strong>(POC)</strong> Lines "OR" Screen cumulated
+</h3>
+<div id="chart" style="text-align: center">
+  <apx-chart
+    class="chart-one"
+    [series]="chart2options.series"
+    [chart]="chart2options.chart"
+    [legend]="chart2options.legend"
+    [colors]="chart2options.colors"
+    [plotOptions]="chart2options.plotOptions"
+    [yaxis]="chart2options.yaxis"
+    [xaxis]="chart2options.xaxis"
+    [dataLabels]="chart2options.dataLabels"
+  ></apx-chart>
+  <apx-chart
+    class="chart-two"
+    [series]="chartOptions.series"
+    [chart]="chartOptions.chart"
+    [legend]="chartOptions.legend"
+    [colors]="chartOptions.colors"
+    [plotOptions]="chartOptions.plotOptions"
+    [yaxis]="chartOptions.yaxis"
+    [xaxis]="chartOptions.xaxis"
+    [dataLabels]="chartOptions.dataLabels"
+  ></apx-chart>
+</div>
